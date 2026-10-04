@@ -85,4 +85,4 @@ REST_FRAMEWORK = {
     'DATETIME_FORMAT': '%Y-%m-%dT%H:%M:%SZ',
 }
 
-TEST_MODE = os.environ.get('TEST_MODE', '0') == '1'
+TEST_MODE = os.environ.get('TEST_MODE', '1') == '1'
