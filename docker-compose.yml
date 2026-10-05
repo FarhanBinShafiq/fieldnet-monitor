@@ -28,7 +28,7 @@ services:
       - DB_PASSWORD=fieldnet_secret
       - DB_HOST=db
       - DB_PORT=5432
-      - TEST_MODE=0
+      - TEST_MODE=1
     ports:
       - "8000:8000"
     volumes:
